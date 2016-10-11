@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0081F31DAD33870010BC08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0081F21DAD33870010BC08 /* main.m */; };
+		DE0081F61DAD33870010BC08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0081F51DAD33870010BC08 /* AppDelegate.m */; };
+		DE0081F91DAD33870010BC08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0081F81DAD33870010BC08 /* ViewController.m */; };
+		DE0081FC1DAD33870010BC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0081FA1DAD33870010BC08 /* Main.storyboard */; };
+		DE0081FE1DAD33870010BC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0081FD1DAD33870010BC08 /* Assets.xcassets */; };
+		DE0082011DAD33870010BC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0081FF1DAD33870010BC08 /* LaunchScreen.storyboard */; };
+		DE00820C1DAD33870010BC08 /* HMSegmented____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00820B1DAD33870010BC08 /* HMSegmented____Tests.m */; };
+		DE0082171DAD33870010BC08 /* HMSegmented____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0082161DAD33870010BC08 /* HMSegmented____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0082081DAD33870010BC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0081E61DAD33860010BC08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0081ED1DAD33860010BC08;
+			remoteInfo = "HMSegmented二次封装";
+		};
+		DE0082131DAD33870010BC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0081E61DAD33860010BC08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0081ED1DAD33860010BC08;
+			remoteInfo = "HMSegmented二次封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0081EE1DAD33860010BC08 /* HMSegmented二次封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMSegmented二次封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0081F21DAD33870010BC08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE0081F41DAD33870010BC08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE0081F51DAD33870010BC08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE0081F71DAD33870010BC08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE0081F81DAD33870010BC08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE0081FB1DAD33870010BC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0081FD1DAD33870010BC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0082001DAD33870010BC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0082021DAD33870010BC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0082071DAD33870010BC08 /* HMSegmented二次封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HMSegmented二次封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE00820B1DAD33870010BC08 /* HMSegmented____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HMSegmented____Tests.m"; sourceTree = "<group>"; };
+		DE00820D1DAD33870010BC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0082121DAD33870010BC08 /* HMSegmented二次封装UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HMSegmented二次封装UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0082161DAD33870010BC08 /* HMSegmented____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HMSegmented____UITests.m"; sourceTree = "<group>"; };
+		DE0082181DAD33870010BC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0081EB1DAD33860010BC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0082041DAD33870010BC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE00820F1DAD33870010BC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0081E51DAD33860010BC08 = {
+			isa = PBXGroup;
+			children = (
+				DE0081F01DAD33870010BC08 /* HMSegmented二次封装 */,
+				DE00820A1DAD33870010BC08 /* HMSegmented二次封装Tests */,
+				DE0082151DAD33870010BC08 /* HMSegmented二次封装UITests */,
+				DE0081EF1DAD33860010BC08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0081EF1DAD33860010BC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0081EE1DAD33860010BC08 /* HMSegmented二次封装.app */,
+				DE0082071DAD33870010BC08 /* HMSegmented二次封装Tests.xctest */,
+				DE0082121DAD33870010BC08 /* HMSegmented二次封装UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0081F01DAD33870010BC08 /* HMSegmented二次封装 */ = {
+			isa = PBXGroup;
+			children = (
+				DE0081F41DAD33870010BC08 /* AppDelegate.h */,
+				DE0081F51DAD33870010BC08 /* AppDelegate.m */,
+				DE0081F71DAD33870010BC08 /* ViewController.h */,
+				DE0081F81DAD33870010BC08 /* ViewController.m */,
+				DE0081FA1DAD33870010BC08 /* Main.storyboard */,
+				DE0081FD1DAD33870010BC08 /* Assets.xcassets */,
+				DE0081FF1DAD33870010BC08 /* LaunchScreen.storyboard */,
+				DE0082021DAD33870010BC08 /* Info.plist */,
+				DE0081F11DAD33870010BC08 /* Supporting Files */,
+			);
+			path = "HMSegmented二次封装";
+			sourceTree = "<group>";
+		};
+		DE0081F11DAD33870010BC08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE0081F21DAD33870010BC08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE00820A1DAD33870010BC08 /* HMSegmented二次封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE00820B1DAD33870010BC08 /* HMSegmented____Tests.m */,
+				DE00820D1DAD33870010BC08 /* Info.plist */,
+			);
+			path = "HMSegmented二次封装Tests";
+			sourceTree = "<group>";
+		};
+		DE0082151DAD33870010BC08 /* HMSegmented二次封装UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0082161DAD33870010BC08 /* HMSegmented____UITests.m */,
+				DE0082181DAD33870010BC08 /* Info.plist */,
+			);
+			path = "HMSegmented二次封装UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0081ED1DAD33860010BC08 /* HMSegmented二次封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE00821B1DAD33870010BC08 /* Build configuration list for PBXNativeTarget "HMSegmented二次封装" */;
+			buildPhases = (
+				DE0081EA1DAD33860010BC08 /* Sources */,
+				DE0081EB1DAD33860010BC08 /* Frameworks */,
+				DE0081EC1DAD33860010BC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMSegmented二次封装";
+			productName = "HMSegmented二次封装";
+			productReference = DE0081EE1DAD33860010BC08 /* HMSegmented二次封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0082061DAD33870010BC08 /* HMSegmented二次封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE00821E1DAD33870010BC08 /* Build configuration list for PBXNativeTarget "HMSegmented二次封装Tests" */;
+			buildPhases = (
+				DE0082031DAD33870010BC08 /* Sources */,
+				DE0082041DAD33870010BC08 /* Frameworks */,
+				DE0082051DAD33870010BC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0082091DAD33870010BC08 /* PBXTargetDependency */,
+			);
+			name = "HMSegmented二次封装Tests";
+			productName = "HMSegmented二次封装Tests";
+			productReference = DE0082071DAD33870010BC08 /* HMSegmented二次封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0082111DAD33870010BC08 /* HMSegmented二次封装UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0082211DAD33870010BC08 /* Build configuration list for PBXNativeTarget "HMSegmented二次封装UITests" */;
+			buildPhases = (
+				DE00820E1DAD33870010BC08 /* Sources */,
+				DE00820F1DAD33870010BC08 /* Frameworks */,
+				DE0082101DAD33870010BC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0082141DAD33870010BC08 /* PBXTargetDependency */,
+			);
+			name = "HMSegmented二次封装UITests";
+			productName = "HMSegmented二次封装UITests";
+			productReference = DE0082121DAD33870010BC08 /* HMSegmented二次封装UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0081E61DAD33860010BC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZHZ;
+				TargetAttributes = {
+					DE0081ED1DAD33860010BC08 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DE0082061DAD33870010BC08 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DE0081ED1DAD33860010BC08;
+					};
+					DE0082111DAD33870010BC08 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DE0081ED1DAD33860010BC08;
+					};
+				};
+			};
+			buildConfigurationList = DE0081E91DAD33860010BC08 /* Build configuration list for PBXProject "HMSegmented二次封装" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0081E51DAD33860010BC08;
+			productRefGroup = DE0081EF1DAD33860010BC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0081ED1DAD33860010BC08 /* HMSegmented二次封装 */,
+				DE0082061DAD33870010BC08 /* HMSegmented二次封装Tests */,
+				DE0082111DAD33870010BC08 /* HMSegmented二次封装UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0081EC1DAD33860010BC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0082011DAD33870010BC08 /* LaunchScreen.storyboard in Resources */,
+				DE0081FE1DAD33870010BC08 /* Assets.xcassets in Resources */,
+				DE0081FC1DAD33870010BC08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0082051DAD33870010BC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0082101DAD33870010BC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0081EA1DAD33860010BC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0081F91DAD33870010BC08 /* ViewController.m in Sources */,
+				DE0081F61DAD33870010BC08 /* AppDelegate.m in Sources */,
+				DE0081F31DAD33870010BC08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0082031DAD33870010BC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE00820C1DAD33870010BC08 /* HMSegmented____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE00820E1DAD33870010BC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0082171DAD33870010BC08 /* HMSegmented____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0082091DAD33870010BC08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0081ED1DAD33860010BC08 /* HMSegmented二次封装 */;
+			targetProxy = DE0082081DAD33870010BC08 /* PBXContainerItemProxy */;
+		};
+		DE0082141DAD33870010BC08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0081ED1DAD33860010BC08 /* HMSegmented二次封装 */;
+			targetProxy = DE0082131DAD33870010BC08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE0081FA1DAD33870010BC08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0081FB1DAD33870010BC08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0081FF1DAD33870010BC08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0082001DAD33870010BC08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0082191DAD33870010BC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE00821A1DAD33870010BC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE00821C1DAD33870010BC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HMSegmented二次封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHZ.HMSegmented----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE00821D1DAD33870010BC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HMSegmented二次封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHZ.HMSegmented----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE00821F1DAD33870010BC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HMSegmented二次封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHZ.HMSegmented----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMSegmented二次封装.app/HMSegmented二次封装";
+			};
+			name = Debug;
+		};
+		DE0082201DAD33870010BC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HMSegmented二次封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHZ.HMSegmented----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMSegmented二次封装.app/HMSegmented二次封装";
+			};
+			name = Release;
+		};
+		DE0082221DAD33870010BC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HMSegmented二次封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHZ.HMSegmented----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HMSegmented二次封装";
+			};
+			name = Debug;
+		};
+		DE0082231DAD33870010BC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HMSegmented二次封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZHZ.HMSegmented----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HMSegmented二次封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0081E91DAD33860010BC08 /* Build configuration list for PBXProject "HMSegmented二次封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0082191DAD33870010BC08 /* Debug */,
+				DE00821A1DAD33870010BC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE00821B1DAD33870010BC08 /* Build configuration list for PBXNativeTarget "HMSegmented二次封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE00821C1DAD33870010BC08 /* Debug */,
+				DE00821D1DAD33870010BC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE00821E1DAD33870010BC08 /* Build configuration list for PBXNativeTarget "HMSegmented二次封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE00821F1DAD33870010BC08 /* Debug */,
+				DE0082201DAD33870010BC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE0082211DAD33870010BC08 /* Build configuration list for PBXNativeTarget "HMSegmented二次封装UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0082221DAD33870010BC08 /* Debug */,
+				DE0082231DAD33870010BC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0081E61DAD33860010BC08 /* Project object */;
+}
